@@ -3,9 +3,9 @@
 <project name="TheProject" default="build" basedir=".">
 
     <!-- Altere estas propriedades adequando-as ao seu projeto -->
-    <property name="application.library" value="${project.basedir}/library"/>
+    <property name="application.library" value="$https://github.com/jaderson2103/projetoManager"/>
     <property name="application.tests" value="${project.basedir}/tests"/>
-    <property name="application.builddir" value="${project.basedir}/build"/>
+    <property name="application.builddir" value="$https://github.com/jaderson2103/projetoManager"/>
 
     <target name="build"
         depends="prepare,lint,phploc,pdepend,phpmd,phpcs,phpcpd,phpdoc,phpunit,phpcb"/>
